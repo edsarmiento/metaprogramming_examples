@@ -1,6 +1,6 @@
 # Following Classes will Example Metaprogramming in Ruby
 
-This Ruby script demonstrates the use of metaprogramming by defining and using an `Account` class.
+This Ruby scripts demonstrates the use of metaprogramming.
 
 ## Metaprogramming
 
