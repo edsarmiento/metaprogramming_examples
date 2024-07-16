@@ -1,6 +1,6 @@
 class Array
   def self.add_new_method(name, &logic)
-    Array.send(:define_method, name) do |*args|
+    self.send(:define_method, name) do |*args|
       puts "from #{self.inspect}"
       logic.call(self, *args)
     end
