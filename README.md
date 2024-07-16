@@ -35,3 +35,22 @@ You can define a new method on the `Array` class using the `add_new_method` clas
 ```ruby
 Array.add_new_method(name, &logic)
 
+# Third example
+
+# Dynamic Model Field Definition
+
+This documentation covers a Ruby class extension that allows dynamic field definition in a model-like class. The `Model` class can be extended to create other classes with dynamically defined fields. Each field will have getter and setter methods automatically generated.
+
+## Model Class
+
+The `Model` class serves as a base class that provides the functionality to define fields dynamically and print their values.
+
+### Usage
+
+#### Defining Fields
+
+You can define new fields in a subclass of `Model` using the `field` class method. This method takes the name of the field as an argument and creates getter and setter methods for it.
+
+#### Printing Field Values
+
+The `print` instance method will output the values of all defined fields for a given instance.
