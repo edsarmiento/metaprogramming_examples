@@ -30,11 +30,6 @@ This Ruby class extension allows you to dynamically add new methods to the `Arra
 
 You can define a new method on the `Array` class using the `add_new_method` class method. This method takes a name for the new method and a block containing the logic to be executed.
 
-#### Syntax
-
-```ruby
-Array.add_new_method(name, &logic)
-
 # Third example
 
 # Dynamic Model Field Definition
